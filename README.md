@@ -1,10 +1,10 @@
-| Họ và Tên | Mã Học Viên | Vai trò chính | Phần việc đảm nhiệm trong dự án |
+| Họ và Tên | Mã Học Viên |
 | :--- | :---: | :--- | :--- |
 | **Mai Việt Anh** | `2A202601083` |
 | **Trương Đình Khoa** | `2A202601297` |
 | **Lương Đăng Doanh** | `2A202601209` | 
 | **Phùng Văn Đạt** | `2A202602012` | 
-| **Trần Tuấn Trung** | `2A202601769` | **BA & PM (Survey & Pain Point)** | Thực hiện khảo sát (84 người), phân tích số liệu tìm pain point và quản trị mục tiêu. |
+| **Trần Tuấn Trung** | `2A202601769` |
 
 # K3 Day 09 - Multi-Agent E-commerce Dispute Resolution
 

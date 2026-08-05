@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/ec-input.schema.json",
+  "title": "EC_POLICY_V1 dispute case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "opened_at", "customer_request", "policy_version"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^EC_[0-9]{3}$"},
+    "opened_at": {"type": "string", "format": "date-time"},
+    "customer_request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "message", "claimed_order_id"],
+      "properties": {
+        "language": {"const": "vi"},
+        "message": {"type": "string", "minLength": 1},
+        "claimed_order_id": {"type": "string", "pattern": "^[0-9a-f]{32}$"}
+      }
+    },
+    "policy_version": {"const": "EC_POLICY_V1"}
+  }
+}

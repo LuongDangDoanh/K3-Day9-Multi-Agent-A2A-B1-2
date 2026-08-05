@@ -1,0 +1,2 @@
+# The production workflow uses only the Python standard library.
+# Install the package in editable mode with: python -m pip install -e .
